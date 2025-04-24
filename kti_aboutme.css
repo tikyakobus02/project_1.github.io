@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.main{
+    width: 100%;
+    background:  url(Aboutmebg.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+}
+.navbar{
+    display: flex;
+    width:  5000px;
+    height: auto;
+    background: white;
+    margin-bottom: 680px;
+}
+
+.imglogo{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.KTI{
+    font-size: 25px;
+    margin-top: 35px;
+    margin-left: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(83, 87, 128);
+    font-weight: bold;
+}
+
+.menu{
+    width: 900px;
+    float: left;
+    height: 70px;
+    background: white;
+    margin-top: 15px;
+    
+}
+
+.ul{
+    float: left;
+    display: flex;
+    margin-top: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding-left: 30px;
+
+}
+
+ul li{
+    list-style: none;
+    font-size: 15pt;
+    font-family: 'Courier New', Courier, monospace;
+    background: white;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+
+ul li a:hover{
+    color: rgb(15, 140, 197);
+}
+
+.AI{
+    color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+}
+footer{
+    background-color: black;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+
+.list{
+    list-style: none;
+    font-size: 15pt;
+    font-family: 'Courier New', Courier, monospace;
+    background: black;
+}
+
+.list  a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+
+.list a:hover{
+    color: rgb(15, 140, 197);
+}
+
+.socialicons{
+    display: flex;
+    justify-content:center ;
+}
+
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+/* Hover Effects on Social Media Icons */
+.socialicons a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+.socialicons a:hover i{
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a{
+    color: aliceblue;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    font-family: c;
+}
+
+.footerBottom{
+    background: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+.aboutme{
+    background: rgb(144, 216, 255);
+}
+
+.img1{
+    margin-left: 450px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.bio{
+    margin-left: 40px;
+    margin-top: 87px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 50px;
+}
+
+
+.bio1{
+    color: rgb(4, 38, 57);
+    font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-shadow: 10px 10px 10px #0b69748e;
+
+}
+
+.iglink{
+    color: rgb(4, 38, 57);
+    
+}
+
+.walink{
+    color: rgb(4, 38, 57);
+}
+
+
